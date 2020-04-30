@@ -251,7 +251,7 @@ under the License.
        <repository>
          <id>nexus-snapshot-repo</id>
          <name>your custom repo</name>
-         <url>http://localhost:9081/repository/maven-snapshots/</url>
+         <url>http://localhost:8081/repository/maven-snapshots/</url>
        </repository>
 	   
      </repositories>
@@ -262,7 +262,7 @@ under the License.
        <repository>
          <id>nexus-release-repo</id>
          <name>your custom repo</name>
-         <url>http://localhost:9081/repository/maven-release/</url>
+         <url>http://localhost:8081/repository/maven-release/</url>
        </repository>
      </repositories>
    </profile>
